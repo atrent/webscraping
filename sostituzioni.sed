@@ -1,0 +1,13 @@
+s/[gG]ennaio/01/g
+s/[fF]ebbraio/02/g
+s/[mM]arzo/03/g
+s/[aA]prile/04/g
+s/[mM]aggio/05/g
+s/[gG]iugno/06/g
+s/[lL]uglio/07/g
+s/[aA]gosto/08/g
+s/[sS]ettembre/09/g
+s/[oO]ttobre/10/g
+s/[nN]ovembre/11/g
+s/[dD]icembre/12/g
+s/\;$//g
