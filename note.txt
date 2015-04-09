@@ -1,0 +1,27 @@
+captcha & python
+* Breaking Visual CAPTCHAs with Naïve Pattern Recognition Algorithms: http://www.acsac.org/2007/papers/70.pdf
+
+
+
+dehtmlizzatori piu’ usati:
+* html2 e 2html
+* html2text
+* vilistextum (pulisce html)
+
+filtri:
+* sed  (sostituzioni di pattern stringa)
+* tr (sostituzione di caratteri)
+* cut (estrae campi)
+* awk (estrae campi, piu’ potente di cut)
+* grep (estrae righe)
+* sqlite
+
+elaborazione:
+* R
+* Python
+* Javascript
+* gnuplot
+
+
+Link utili
+vedi csv
