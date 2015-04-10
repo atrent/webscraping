@@ -74,7 +74,7 @@ headers >$FILENAME
 # qui si potrebbe usare xml2?
 # NO, problemi di encoding... lasciamo stare
 
-grep Artem.Google.MarkersBehavior mappa-stazioni.aspx | cut -f2- -d, |rev|cut -f4- -d,  |rev |json_pp |grep info|cut -f2- -d: |cut -c82-|sed "s/<\/span><br\/><ul><li>Biciclette disponibili: /:/g"|sed "s/<\/li><li>Stalli disponibili: /:/g"|sed "s/<\/li><\/ul><\/div>\"//g"|tr -d "," >>$FILENAME
+grep Artem.Google.MarkersBehavior mappa-stazioni.aspx | cut -f2- -d, |rev|cut -f4- -d,  |rev |json_pp |grep info|cut -f2- -d: |cut -c82-|sed "s/<\/span><br\/><ul><li>Biciclette disponibili: /:/g"|sed "s/<\/li><li>Biciclette elettriche disponibili: /:/g"|sed "s/<\/li><li>Stalli disponibili: /:/g"|sed "s/<\/li><\/ul><\/div>\"//g"|tr -d "," >>$FILENAME
 
 rm ultima.txt
 #inserire fdupes?
