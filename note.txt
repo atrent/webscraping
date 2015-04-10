@@ -25,3 +25,19 @@ elaborazione:
 
 Link utili
 vedi csv
+
+
+
+==================================
+A POSTERIORI, note del giorno dopo
+
+
+CSS a linea di comando:
+http://stackoverflow.com/questions/7334942/is-there-something-like-a-css-selector-or-xpath-grep
+http://superuser.com/questions/528709/command-line-css-selector-tool
+http://videlibri.sourceforge.net/xidel.html
+
+VARIE
+http://jeroenjanssens.com/2013/09/19/seven-command-line-tools-for-data-science.html
+
+(atrent) ho corretto lo script del bikemi, ora funziona di nuovo (c'erano le elettriche in piu')
